@@ -5,7 +5,7 @@ from pyspark.sql import SparkSession
 if __name__ == "__main__":
     spark = SparkSession\
         .builder\
-        .appName("map_filter")\
+        .appName("map_filter_adolfo")\
         .getOrCreate()
 
     print("map, filter app ... ")
